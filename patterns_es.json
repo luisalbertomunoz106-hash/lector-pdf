@@ -1,0 +1,74 @@
+{
+  "Nombre": [
+    "(?i)\\b(NOMBRE|PACIENTE|NOMBRE COMPLETO)\\s*[:\\-]\\s*([A-ZÁÉÍÓÚÑ\\s]+)"
+  ],
+  "Edad": [
+    "(?i)\\bEDAD\\s*[:\\-]\\s*(\\d{1,3})\\b"
+  ],
+  "Sexo": [
+    "(?i)\\b(SEXO|GÉNERO)\\s*[:\\-]\\s*(M(ASCULINO)?|F(EMENINO)?)\\b"
+  ],
+  "TA_sis": [
+    "(?i)\\bTA\\b.*?(\\d{2,3})\\s*/\\s*\\d{2,3}"
+  ],
+  "TA_dia": [
+    "(?i)\\bTA\\b.*?\\d{2,3}\\s*/\\s*(\\d{2,3})"
+  ],
+  "FC": [
+    "(?i)\\bFC\\b\\s*[:\\-]?\\s*(\\d{2,3})\\b"
+  ],
+  "FR": [
+    "(?i)\\bFR\\b\\s*[:\\-]?\\s*(\\d{1,2})\\b"
+  ],
+  "Temp": [
+    "(?i)\\b(TEMP(ERATURA)?)\\b\\s*[:\\-]?\\s*(\\d{2}\\.?\\d?)\\b"
+  ],
+  "SatO2": [
+    "(?i)\\b(SAT(URACIÓN)?O?2?)\\b\\s*[:\\-]?\\s*(\\d{2,3})\\s*%"
+  ],
+  "Hb": [
+    "(?i)\\b(HB|HEMOGLOBINA)\\b\\s*[:\\-]?\\s*(\\d{1,2}\\.?\\d?)\\b"
+  ],
+  "Leucocitos": [
+    "(?i)\\b(LEU(C(OCITOS)?)?)\\b\\s*[:\\-]?\\s*(\\d{1,2}\\.?\\d?)\\s*(K\\/?u?L|x?10\\^?3\\/\\w+)?"
+  ],
+  "Plaquetas": [
+    "(?i)\\b(PLAQ(UETAS)?)\\b\\s*[:\\-]?\\s*(\\d{2,4}\\.?\\d?)\\b"
+  ],
+  "Creatinina": [
+    "(?i)\\b(CREA(TININA)?)\\b\\s*[:\\-]?\\s*(\\d{1}\\.?\\d{1,2})\\b"
+  ],
+  "Urea": [
+    "(?i)\\b(UREA)\\b\\s*[:\\-]?\\s*(\\d{1,3}\\.?\\d?)\\b"
+  ],
+  "BUN": [
+    "(?i)\\b(BUN|NITRÓGENO UREICO)\\b\\s*[:\\-]?\\s*(\\d{1,3}\\.?\\d?)\\b"
+  ],
+  "Na": [
+    "(?i)\\b(NA|SODIO)\\b\\s*[:\\-]?\\s*(\\d{2,3}\\.?\\d?)\\b"
+  ],
+  "K": [
+    "(?i)\\b(K|POTASIO)\\b\\s*[:\\-]?\\s*(\\d{1,2}\\.?\\d?)\\b"
+  ],
+  "Cl": [
+    "(?i)\\b(CL|CLOR(O|URO))\\b\\s*[:\\-]?\\s*(\\d{2,3}\\.?\\d?)\\b"
+  ],
+  "Mg": [
+    "(?i)\\b(MG|MAGNESIO)\\b\\s*[:\\-]?\\s*(\\d{1,2}\\.?\\d?)\\b"
+  ],
+  "Ca": [
+    "(?i)\\b(CA|CALCIO)\\b\\s*[:\\-]?\\s*(\\d{1,2}\\.?\\d?)\\b"
+  ],
+  "Fósforo": [
+    "(?i)\\b(FÓSFORO|PHOS|P)\\b\\s*[:\\-]?\\s*(\\d{1,2}\\.?\\d?)\\b"
+  ],
+  "PCR": [
+    "(?i)\\b(PCR|PROTEÍNA C REACTIVA)\\b\\s*[:\\-]?\\s*(\\d{1,3}\\.?\\d?)\\b"
+  ],
+  "Procalcitonina": [
+    "(?i)\\b(PROCAL(CITONINA)?)\\b\\s*[:\\-]?\\s*(\\d{1,3}\\.?\\d?)\\b"
+  ],
+  "Troponina": [
+    "(?i)\\b(TROP(ONINA)?)\\b\\s*[:\\-]?\\s*(\\d{1,4}\\.?\\d*)\\b"
+  ]
+}
